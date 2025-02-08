@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "Chrome Custom Shortcuts",
+  "version": "1.0",
+  "description": "Add custom keyboard shortcuts to Chrome",
+  "permissions": ["tabs", "storage", "commands", "scripting"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "src/background/background.js"
+  },
+  "action": {
+    "default_popup": "src/popup/popup.html"
+  },
+  "commands": {
+    "copy-url": {
+      "suggested_key": {
+        "mac": "Command+Shift+Y",
+        "windows": "Ctrl+Shift+Y",
+        "linux": "Ctrl+Shift+Y"
+      },
+      "description": "Copy current URL"
+    },
+    "duplicate-tab": {
+      "suggested_key": {
+        "mac": "Command+Shift+D",
+        "windows": "Ctrl+Shift+D",
+        "linux": "Ctrl+Shift+D"
+      },
+      "description": "Duplicate current tab"
+    }
+  }
+}

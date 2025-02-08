@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<meta charset="UTF-8" />
+<html>
+  <head>
+    <title>Custom Shortcuts</title>
+    <style>
+      body {
+        width: 300px;
+        padding: 10px;
+      }
+      .shortcut {
+        margin: 10px 0;
+      }
+      .customize-link {
+        margin-top: 20px;
+        display: block;
+        color: #1a73e8;
+        text-decoration: none;
+      }
+      .customize-link:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Custom Shortcuts</h2>
+    <div class="shortcut">
+      <p>
+        Copy URL: <strong>Cmd+Shift+Y</strong> (Mac) /
+        <strong>Ctrl+Shift+Y</strong> (Windows/Linux)
+      </p>
+    </div>
+    <a href="#" class="customize-link" id="shortcutsLink"
+      >⚙️ Customize shortcuts</a
+    >
+    <script src="popup.js"></script>
+  </body>
+</html>
