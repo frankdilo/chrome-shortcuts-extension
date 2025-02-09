@@ -1,11 +1,24 @@
-# Chrome Shortcuts Extension
+# PowerKeys
 
 A Chrome extension for managing keyboard shortcuts.
+
+## Links
+
+- Figma file with icon [here](<https://www.figma.com/design/9fnvcwFR26f0yFTcHDpKPb/Chrome-Extension-Template-(Community)?node-id=404-37&p=f&t=vIJgKYebCI7v7kCf-0>)
+
+## Development
+
+1. Clone the repository
+2. Install dependencies with `npm install`
+3. Load the extension in Chrome:
+   - Open Chrome and navigate to `chrome://extensions/`
+   - Enable "Developer mode"
+   - Click "Load unpacked" and select the extension directory
 
 ## Project Structure
 
 ```
-chrome-shortcuts-extension/
+powerkeys/
 ├── src/
 │   ├── background/
 │   │   └── background.js
@@ -24,16 +37,3 @@ chrome-shortcuts-extension/
 ├── package.json
 └── README.md
 ```
-
-## Development
-
-1. Clone the repository
-2. Install dependencies with `npm install`
-3. Load the extension in Chrome:
-   - Open Chrome and navigate to `chrome://extensions/`
-   - Enable "Developer mode"
-   - Click "Load unpacked" and select the extension directory
-
-## License
-
-MIT

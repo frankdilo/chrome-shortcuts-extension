@@ -1,10 +1,10 @@
 {
-  "name": "chrome-shortcuts-extension",
+  "name": "powerkeys",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "chmod +x scripts/build.sh && ./scripts/build.sh"
   },
   "keywords": [],
   "author": "",
